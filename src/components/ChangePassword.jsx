@@ -38,7 +38,7 @@ const payload = {
 
    try {
 
-    const response = await axios.patch('http://localhost:3000/api/updatePassword',payload,config);
+    const response = await axios.patch('https://psw-reset-backend.onrender.com/api/updatePassword',payload,config);
 
     const data = await response.data;
 

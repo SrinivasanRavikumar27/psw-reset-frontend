@@ -16,7 +16,7 @@ function PasswordResetForm() {
         event.preventDefault();
 
       try {
-        const response =  await axios.post('http://localhost:3000/api/reset-password',email);
+        const response =  await axios.post('https://psw-reset-backend.onrender.com/api/reset-password',email);
 
         const data = await response.data;
  

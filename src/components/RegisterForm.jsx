@@ -25,7 +25,7 @@ function RegisterForm() {
         password: registerData.password
       }
       
-      const response = await axios.post('http://localhost:3000/api/register',user);
+      const response = await axios.post('https://psw-reset-backend.onrender.com/api/register',user);
       
       const data = await response.data;
       
